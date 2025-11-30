@@ -1,0 +1,10 @@
+    [build]
+      command = "npm run build" # Or "vite build"
+      publish = "dist"
+
+    # Optional: For development with Netlify Dev
+    [dev]
+      framework = "vite"
+      command = "npm run dev" # Or "vite"
+      targetPort = 5173 # Vite's default dev server port
+      autoLaunch = true

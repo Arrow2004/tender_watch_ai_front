@@ -1,29 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-  ChevronUp,
-  Upload,
-  Bot,
-  BarChart3,
-  Star,
-  BookOpen,
-  Shield,
-  Rocket,
-  ArrowRight,
-  ArrowLeft,
-  Coins,
-  Search,
-  Hospital,
-  ShoppingCart,
-  Scale,
-  ClipboardList,
-  TrendingUp,
-  Map,
-  Users,
-  Wrench,
-  Database,
-  Globe,
-  FileText,
+  ChevronUp
 } from "lucide-react";
 
 export default function MainPage() {
