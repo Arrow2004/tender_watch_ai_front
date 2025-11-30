@@ -144,7 +144,7 @@ export default function MainPage() {
       Davlatda Moliyaviy Qonunbuzarliklar
     </h2>
     <p style={{ textAlign: "center", color: "var(--text-light)", marginBottom: "40px", fontSize: "14px", maxWidth: "800px", marginLeft: "auto", marginRight: "auto" }}>
-      Karochkani sichqoncha bilan ustiga qo'ying — batafsil ma'lumot va manba havolalarini ko'ring:
+      Kartochkani sichqoncha bilan ustiga qo'ying — batafsil ma'lumot va manba havolalarini ko'ring:
     </p>
 
     <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "30px", marginBottom: "80px" }}>
@@ -256,7 +256,7 @@ export default function MainPage() {
     }}>
       <h3 style={{ color: "var(--primary)", marginTop: 0 }}>Nima Qilish Kerak?</h3>
       <p style={{ color: "var(--text-light)", maxWidth: "600px", margin: "15px auto", fontSize: "15px" }}>
-        NARX Format AI teknologiyasidan foydalanib qonunbuzarliklarni avtomatik aniqlab, shaffoflik va ochildiqni oshiradi.
+       Tender Watch AI loyihasidan foydalanib qonunbuzarliklarni avtomatik aniqlab, shaffoflik va ochildiqni oshiradi.
       </p>
       <Link to="/upload" className="cta-button" style={{ marginTop: "20px", display: "inline-block" }}>
         Tahlil Qilishni Boshlash Rocket
@@ -438,23 +438,25 @@ export default function MainPage() {
       <footer>
         <div className="footer-content">
           <div className="footer-section">
-            <h4>NARX Format</h4>
+            <h4>Tender Watch AI</h4>
             <p>Davlat xaridlarida shaffoflikni oshirish uchun AI yordamchi platform</p>
           </div>
           <div className="footer-section">
             <h4>Havolalar</h4>
             <a href="#" onClick={() => scrollTo("home")}>Home</a><br/>
             <a href="#" onClick={() => scrollTo("problems")}>Muammolar</a><br/>
-            <a href="#" onClick={() => scrollTo("solution")}>Yechim</a>
+            <a href="#" onClick={() => scrollTo("solution")}>Yechim</a> <br />
+            <a href="./files/details.pdf">Loyiha haqida qo'shimcha ma'lumotlar</a> <br />
+            <a href="./files/Namuna.pdf">Shartnoma namunasi</a><br/>
           </div>
           <div className="footer-section">
             <h4>Kontakt</h4>
-            <p>Email: info@narxformat.uz</p>
-            <p>Tel: +998 90 123-45-67</p>
+            <p>Email: a.sh.abdusattorov@gmail.com</p>
+            <p>Tel: +998 93 536-86-82</p>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2025 NARX Format. Barcha huquqlar himoyalangan.</p>
+          <p>© 2025 Tender Watch. Barcha huquqlar himoyalangan.</p>
         </div>
       </footer>
 
