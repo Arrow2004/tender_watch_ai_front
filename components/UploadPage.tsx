@@ -103,7 +103,10 @@ export default function UploadPage() {
           PDF faylni yuklang — AI bir necha soniyada narxlarni tekshirib,
           xavfli joylarni aniqlaydi(Narxlar internedagi ochiq malumotlar asosida solishtiriladi)
         </p>
-
+        <p>
+          <strong>Eslatma:</strong> Hozircha loyiha prototype holatida va
+          faqatgina .pdf formatdagi fayllarni qabul qiladi. Iltimos iloji boricha <a href="./files/Namuna.pdf">namunadagi</a> kabi fayllardan foydalaning.
+        </p>
         <div
           style={{
             background: "white",
