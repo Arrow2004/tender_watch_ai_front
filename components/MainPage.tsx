@@ -446,7 +446,7 @@ export default function MainPage() {
             <a href="#" onClick={() => scrollTo("home")}>Home</a><br/>
             <a href="#" onClick={() => scrollTo("problems")}>Muammolar</a><br/>
             <a href="#" onClick={() => scrollTo("solution")}>Yechim</a> <br />
-            <a href="./files/details.pdf">Loyiha haqida qo'shimcha ma'lumotlar</a> <br />
+            <a href="./files/Tender_Watch_AI.pdf">Loyiha haqida qo'shimcha ma'lumotlar</a> <br />
             <a href="./files/Namuna.pdf">Shartnoma namunasi</a><br/>
           </div>
           <div className="footer-section">
