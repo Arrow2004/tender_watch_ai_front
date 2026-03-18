@@ -40,7 +40,7 @@ export default function MainPage() {
             <button className={`nav-btn ${activeSection === "problems" ? "active" : ""}`} onClick={() => scrollTo("problems")}>Muammolar</button>
             <button className={`nav-btn ${activeSection === "solution" ? "active" : ""}`} onClick={() => scrollTo("solution")}>Yechim</button>
             <button className={`nav-btn ${activeSection === "roadmap" ? "active" : ""}`} onClick={() => scrollTo("roadmap")}>Roadmap</button>
-            <button style="display: none" className={`nav-btn ${activeSection === "team" ? "active" : ""}`} onClick={() => scrollTo("team")}>Team</button>
+            <button className={`nav-btn ${activeSection === "team" ? "active" : ""}`} onClick={() => scrollTo("team")}>Team</button>
             <button className={`nav-btn ${activeSection === "technologies" ? "active" : ""}`} onClick={() => scrollTo("technologies")}>Texnologiyalar</button>
             <Link to="/upload" className="nav-btn">Upload</Link>
           </nav>
