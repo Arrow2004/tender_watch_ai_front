@@ -358,7 +358,7 @@ export default function MainPage() {
         </section>
 
         {/* TEAM — ТОЧНО КАК У ТЕБЯ */}
-        <section style="display: none" id="team">
+        <section id="team">
           <h2>Bizning Jamoa Users</h2>
           <p style={{ textAlign: "center", color: "var(--text-light)", marginBottom: "60px" }}>
             Davlat xaridlaridagi shaffoflikni oshirish uchun birlashgan, tajribali IT mutaxassislari.
