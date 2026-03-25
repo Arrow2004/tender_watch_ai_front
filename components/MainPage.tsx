@@ -451,8 +451,8 @@ export default function MainPage() {
           </div>
           <div className="footer-section">
             <h4>Kontakt</h4>
-            <p>Email: a.sh.abdusattorov@gmail.com</p>
-            <p>Tel: +998 93 536-86-82</p>
+            <p>Email: a-abdusattorov@outlook.com</p>
+            <p>Tel: +998 88 523-02-20</p>
           </div>
         </div>
         <div className="footer-bottom">
