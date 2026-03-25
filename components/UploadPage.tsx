@@ -25,7 +25,7 @@ export default function UploadPage() {
       formData.append("file", file); // API aynan shu nomni kutyapti
 
       const response = await fetch(
-        "https://tenderwatch-bybmcmc0h5eebheb.canadacentral-01.azurewebsites.net/upload-pdf",
+        "http://45.80.148.239/upload-pdf",
         {
           method: "POST",
           body: formData,
